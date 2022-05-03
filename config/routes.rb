@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 Rails.application.routes.draw do
+  resources :blogs
   devise_for :users
   root 'static_page#home'
   get 'static_page/about'

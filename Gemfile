@@ -83,3 +83,5 @@ gem 'rubocop', '~> 1.28'
 gem 'rubocop-rails', '~> 2.14'
 
 gem 'brakeman', '~> 5.2'
+
+gem 'bundler-audit', '~> 0.9.0'
