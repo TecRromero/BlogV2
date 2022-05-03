@@ -81,3 +81,5 @@ gem 'devise', '~> 4.8'
 gem 'rubocop', '~> 1.28'
 
 gem 'rubocop-rails', '~> 2.14'
+
+gem 'brakeman', '~> 5.2'
