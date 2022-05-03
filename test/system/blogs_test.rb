@@ -15,6 +15,7 @@ class BlogsTest < ApplicationSystemTestCase
     click_on "New blog"
 
     fill_in "Body", with: @blog.body
+    fill_in "Title", with: @blog.title
     fill_in "User", with: @blog.user_id
     click_on "Create Blog"
 
@@ -27,6 +28,7 @@ class BlogsTest < ApplicationSystemTestCase
     click_on "Edit this blog", match: :first
 
     fill_in "Body", with: @blog.body
+    fill_in "Title", with: @blog.title
     fill_in "User", with: @blog.user_id
     click_on "Update Blog"
 
